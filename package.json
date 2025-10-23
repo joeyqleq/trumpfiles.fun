@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.34.0",
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
     "@supabase/supabase-js": "^2.76.1",
@@ -16,10 +17,12 @@
     "framer-motion": "^12.23.24",
     "next": "16.0.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "resend": "^6.2.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/d3": "^7.4.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -1,0 +1,23 @@
+.catalogTitle {
+  font-size: 3rem;
+  color: var(--primary-orange);
+}
+.catalogSubtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+.filterInput {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}

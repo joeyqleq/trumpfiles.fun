@@ -1,0 +1,43 @@
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.heroText {
+  flex: 1.618; /* Golden Ratio */
+  padding-right: 2rem;
+}
+
+.heroTitle {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--primary-orange);
+  margin: 0;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+}
+
+.hero3D {
+  flex: 1;
+  height: 500px;
+  cursor: grab;
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .heroText {
+    padding-right: 0;
+  }
+}
